@@ -19,7 +19,8 @@ const metadata = {
   top: {
     lang: 'ja',
     title: ' | JWS Playgrounds',
-    description: 'フロントエンドアニメーションの作品集。リアルタイムで動作するデモとコードサンプルを通じて、実装の詳細をご紹介します。',
+    description:
+      'フロントエンドアニメーションの作品集。リアルタイムで動作するデモとコードサンプルを通じて、実装の詳細をご紹介します。',
     url: `${getEnv('PUBLIC_SITE_PATH')}/`,
     head_url: `${getEnv('PUBLIC_SITE_URL')}${getEnv('PUBLIC_SITE_PATH')}`,
   },

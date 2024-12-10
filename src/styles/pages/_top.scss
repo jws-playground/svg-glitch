@@ -1,3 +1,28 @@
 @use '../import' as *;
 
-.p_top {}
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+.p_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  font-family: "Creepster", cursive;
+
+  h1 {
+    color: rgba(20, 200, 50, 0.7);
+    font-size: 300px;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    filter: url(#glitch);
+  }
+
+  svg {
+    display: none;
+  }
+}
